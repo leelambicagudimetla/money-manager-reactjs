@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.list-balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 2px 2px;
+  padding: 10px;
+  background-color: #ecfccb;
+  width: 20vw;
+}
+.image-size {
+  max-height: 50px;
+  max-width: 50px;
+}
+.list-income {
+  width: 20vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 2px 2px;
+  background-color: #cffafe;
+}
+.list-expenses {
+  padding: 10px;
+  width: 20vw;
+  background-color: #d7dfe9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 2px 2px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+}
+.name-heading {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+}
